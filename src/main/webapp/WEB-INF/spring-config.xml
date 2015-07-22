@@ -13,9 +13,9 @@
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/employee_db" />
-		<property name="username" value="root" />
-		<property name="password" value="123456" />
+		<property name="url" value="jdbc:mysql://us-cdbr-iron-east-02.cleardb.net:3306/ad_4a0a13a707a5ed3" />
+		<property name="username" value="b3bf2b9ad261a9" />
+		<property name="password" value="fc34ffad" />
 	</bean>
 
 	<bean id="sessionFactory"

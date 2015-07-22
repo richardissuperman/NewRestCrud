@@ -50,6 +50,8 @@ public class RestController {
 	void getParams(HttpServletRequest request) {
 
 		Map<String, String[]> parameters = request.getParameterMap();
+		
+		
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 
